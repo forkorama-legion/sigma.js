@@ -28,6 +28,14 @@ To build the code:
 
 Also, you can customize the build by adding or removing files from the `coreJsFiles` array in `Gruntfile.js` before applying the grunt task.
 
+If docker-compose is installed on your host, you may simply run:
+
+```
+docker-compose up
+```
+
+Dependencies will be installed, code build and a webserver started on port 8000.
+
 ### Contributing
 
 You can contribute by submitting [issues tickets](http://github.com/jacomyal/sigma.js/issues) and proposing [pull requests](http://github.com/jacomyal/sigma.js/pulls). Make sure that tests and linting pass before submitting any pull request by running the command `grunt`.
